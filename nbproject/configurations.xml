@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="Blaster" root=".">
+      <in>pong.cc</in>
+      <in>pong.h</in>
+      <in>pong_module.cc</in>
+      <in>view.cc</in>
+      <in>view.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>../nacl_sdk/pepper_20/toolchain/linux_x86_newlib/x86_64-nacl/include/sys</pElem>
+              <pElem>../nacl_sdk/pepper_20/toolchain/linux_x86_newlib/x86_64-nacl/include/c++/4.4.3/debug</pElem>
+              <pElem>../nacl_sdk/pepper_20/toolchain/linux_x86_newlib/x86_64-nacl/include/c++/4.4.3/ext</pElem>
+              <pElem>../nacl_sdk/pepper_20/toolchain/linux_x86_newlib/x86_64-nacl/include/ppapi/c</pElem>
+              <pElem>../nacl_sdk/pepper_20/toolchain/linux_x86_newlib/x86_64-nacl/include</pElem>
+              <pElem>../nacl_sdk/pepper_20/toolchain/linux_x86_newlib/x86_64-nacl/include/c++/4.4.3/bits</pElem>
+              <pElem>../nacl_sdk/pepper_20/toolchain/linux_x86_newlib/x86_64-nacl/include/c++/4.4.3</pElem>
+              <pElem>../nacl_sdk/pepper_20/examples/pong</pElem>
+              <pElem>../nacl_sdk/pepper_20/toolchain/linux_x86_newlib/lib/gcc/x86_64-nacl/4.4.3/include</pElem>
+              <pElem>../nacl_sdk/pepper_20/toolchain/linux_x86_newlib/x86_64-nacl/include/ppapi/cpp</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
